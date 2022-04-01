@@ -1,4 +1,4 @@
-# :bookmark_tabs:CodePractice
+# CodePractice
 
 个人平时练习题的代码仓库
 
