@@ -44,32 +44,3 @@ void QuickSort(int arr[], int Left, int Right){
     QuickSort(arr, Left, tmp_Left - 1);
     QuickSort(arr, tmp_Left + 1, Right);
 }
-
-// void qsort(int a[],int left,int right){
-//     if(left>=right)
-//     return;
-//     int i = left;
-//     int j = right;
-//     int key = a[left];
-//     while(i<j){
-//         while(i<j&&key<=a[j]) j--;
-//         a[i] = a[j];
-//         while(i<j&&key>=a[i]) i++;
-//         a[j] = a[i];
-//     }
-//     a[i] = key;
-//     qsort(a,left,i-1);
-//     qsort(a,i+1,right);
-// }
-// int a[101];
-// int main(){
-//     memset(a,0,sizeof(a));
-//     int n,i;
-//     cin>>n;
-//     for(i=0;i<n;i++){
-//         cin>>a[i];
-//     }
-//     qsort(a,0,n-1);
-//     for(i=0;i<n;i++) cout<<a[i]<<" ";
-//     return 0;
-// }
