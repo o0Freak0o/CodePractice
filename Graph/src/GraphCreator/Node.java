@@ -1,3 +1,5 @@
+package GraphCreator;
+
 import java.util.ArrayList;
 
 public class Node {

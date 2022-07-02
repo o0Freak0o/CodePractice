@@ -1,3 +1,5 @@
+package GraphCreator;
+
 public class Edge {
     int weight;
     Node from;

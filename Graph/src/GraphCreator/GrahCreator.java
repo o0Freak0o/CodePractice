@@ -1,3 +1,5 @@
+package GraphCreator;
+
 public class GrahCreator {
     public static Graph createGraph(Integer[][] matrix){
         Graph graph = new Graph();
