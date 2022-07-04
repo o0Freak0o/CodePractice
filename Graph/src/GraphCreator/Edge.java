@@ -1,9 +1,9 @@
 package GraphCreator;
 
 public class Edge {
-    int weight;
-    Node from;
-    Node to;
+    public int weight;
+    public Node from;
+    public Node to;
 
     public Edge(int weight,Node from,Node to){
         this.weight = weight;
